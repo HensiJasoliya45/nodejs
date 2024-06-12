@@ -27,7 +27,7 @@ var server = http.createServer(function(request,response){
         em.removeListener('register',RegisterEmail);
         em.removeListener('register', ProductEmail);
         em.removeListener('register',RegisterEmail);
-        em.emit('register','ankit3385@gmail.com');
+        em.emit('register','ankit3385@gmail.comnode');
     }    
 });
 server.listen(5000);
